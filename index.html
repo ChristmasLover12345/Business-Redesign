@@ -13,94 +13,125 @@
 </head>
 
 <body>
+    <div class="navbar-full">
+    <a class="navbar-brand" href="#">
+        <img class="d-none d-lg-block" src="./assets/logo.png" alt="Bootstrap" width="175px"/>
+      </a>
+        <nav class="navbar navbar-expand-lg">
 
-    <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
-          <button
-            class="navbar-toggler d-lg-none border-0"
-            type="button"
-            data-bs-toggle="offcanvas"
-            data-bs-target="#offcanvasResponsive"
-            aria-controls="offcanvasResponsive"
-          >
-          <span class="navbar-toggler-icon"></span>
-          </button>
-          <div
-            class="offcanvas-lg offcanvas-start"
-            tabindex="-1"
-            id="offcanvasResponsive"
-            aria-labelledby="offcanvasResponsiveLabel"
-          >
-            <div class="offcanvas-header">
+            <div class="container-fluid">
               <button
+                class="navbar-toggler d-lg-none border-0"
                 type="button"
-                class="btn-close"
-                data-bs-dismiss="offcanvas"
+                data-bs-toggle="offcanvas"
                 data-bs-target="#offcanvasResponsive"
-                aria-label="Close"
-              ></button>
-            </div>
-            
-            <div class="offcanvas-body d-lg-none d-xxxl-block">
+                aria-controls="offcanvasResponsive"
+              >
+              <span class="navbar-toggler-icon"></span>
+              </button>
               <div
-            class="justify-content-center"
-            id="navbarNav"
-          >
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="#"
-                  ><h6 class="nav-hover">Home</h6></a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#"
-                  ><h6 class="nav-hover">About Us</h6></a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#"
-                  ><h6 class="nav-hover">Menu</h6></a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#"
-                  ><h6 class="nav-hover">Location</h6></a
-                >
-              </li>
-            </ul>
-          </div>
+                class="offcanvas-lg offcanvas-start"
+                tabindex="-1"
+                id="offcanvasResponsive"
+                aria-labelledby="offcanvasResponsiveLabel"
+              >
+                <div class="offcanvas-header">
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="offcanvas"
+                    data-bs-target="#offcanvasResponsive"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                
+                <div class="offcanvas-body d-lg-none d-xxxl-block">
+                  <div
+                class="justify-content-center"
+                id="navbarNav"
+              >
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="./index.html"
+                      ><h3 class="nav-hover this-page">Home</h3></a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/aboutus.html"
+                      ><h3 class="nav-hover">About Us</h3></a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/menu.html"
+                      ><h3 class="nav-hover">Menu</h3></a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/location.html"
+                      ><h3 class="nav-hover">Location</h3></a
+                    >
+                  </li>
+                </ul>
+              </div>
+                </div>
+              </div>
+              <a class="navbar-brand d-lg-none d-xxxl-block" href="#">
+                <img class="logo-burger" src="./assets/logo.png" alt="Bootstrap" width="125px"/>
+              </a>
+              <div
+                class="collapse navbar-collapse justify-content-center"
+                id="navbarNav"
+              >
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"
+                      ><h3 class="nav-hover this-page">Home</h3></a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"
+                      ><h3 class="nav-hover">About Us</h3></a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"
+                      ><h3 class="nav-hover">Menu</h3></a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"
+                      ><h3 class="nav-hover">Location</h3></a
+                    >
+                  </li>
+                </ul>
+              </div>
             </div>
-          </div>
-          <div
-            class="collapse navbar-collapse justify-content-center"
-            id="navbarNav"
-          >
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="#"
-                  ><h6 class="nav-hover">Home</h6></a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#"
-                  ><h6 class="nav-hover">About Us</h6></a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#"
-                  ><h6 class="nav-hover">Menu</h6></a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#"
-                  ><h6 class="nav-hover">Location</h6></a
-                >
-              </li>
-            </ul>
-          </div>
+          </nav>
+    </div>
+    <div class="orange-bar">
+        <h4>Arroyo’s Mexican Cafe – Fine Mexican Dining In Stockton, California!</h4>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-7 p-0"><img class="hero-img" src="./assets/hero.png" alt="Arroyo's Location"></div>
+            <div class="col-5 hero-box">
+                <h1>Opening Hours:</h1>
+                <b>Mon - Thu</b>
+                <p>11:00 AM to 7:00 PM</p>
+                <b>Fri - Sat</b>
+                <p>11:00 AM to 8:00 PM</p>
+                <b>Closed Sundays</b>
+                <h1>Address:</h1>
+                <p>2381 W. March Lane</p>
+                <p>Stockton, CA 95207</p>
+                <p>Two Blocks East of I-5</p>
+                <h3>Phone: 1-209-472-1661</h3>
+            </div>
         </div>
-      </nav>
-
+    </div>
+    <div class="purple-bar">
+        <h1>Take Home Fresh Arroyo’s Tortillas!</h1>
+    </div>
 
 
     

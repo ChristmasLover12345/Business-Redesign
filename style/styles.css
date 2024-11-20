@@ -69,6 +69,12 @@
     padding: 2rem 0 1rem 0;
 }
 
+.menu-break {
+    border-top: 5px solid rgb(0, 0, 0);
+    margin: 0 1rem 0 1rem;
+    padding-bottom: 1rem;
+}
+
 .menu-grid h1 {
     color: #F7E9AD;
     background-color: #541E35;
@@ -76,19 +82,50 @@
     font-weight: bold;
     display: flex;
     justify-content: center;
-    margin: 0 1rem 0 1rem;
+    margin: 0 2rem 0 2rem;
     padding: 1rem 0 1rem 0;
+}
+
+.menu-grid h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #541E35;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    
+}
+
+.menu-grid h3 {
+    font-size: 35px;
+    font-weight: bold;
+    padding: 0 1rem 0 1rem;
+    margin: 0;
+}
+
+.menu-grid p {
+    font-size: 20px;
+    padding: 0 1rem 2rem 1rem;
+    margin: 0;
+}
+
+#no-space {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#space-above {
+    padding-top: 2rem;
 }
 
 .entrees {
     background-color: #A5C972;
-    margin: 0 1rem 0 1rem;
+    margin: 0 2rem 0 2rem;
 }
 
 .appetizers {
     background-color: #E05D2F;
-    margin: 0 1rem 0 1rem;
-
+    margin: 0 2rem 0 2rem;
 }
 
 /* Menu Section - End */

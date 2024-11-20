@@ -1,3 +1,13 @@
+:root {
+    --clr-tan: #F7E9AD;
+    --clr-red: #E13829;
+    --clr-orange: #E05D2F;
+    --clr-yellow: #FFB43D;
+    --clr-green: #A5C972;
+    --clr-teal: #6BB38E;
+    --clr-purple: #541E35;
+}
+
 @font-face {
     font-family: Montagu-Slab;
     src: url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Montagu+Slab:opsz,wght@16..144,100..700&display=swap');
@@ -46,4 +56,57 @@
     grid-template-columns: repeat(2, 1fr);
 }
 
-/* Menu Section - End */
+/* Menu Section - End */body{
+    background-color: var(--clr-yellow);
+    background-image: url(/assets/Background1.png);
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+/* Navbar Stuff */
+
+.navbar-brand{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.navbar{
+    text-align: center;
+    background-color: var(--clr-yellow);
+}
+
+.nav-hover{
+    padding: 0px 10px;
+}
+
+.offcanvas-body, .offcanvas-header, .navbar-full{
+    background-color: var(--clr-yellow);
+}
+
+.this-page{
+    color: var(--clr-red);
+    text-decoration: underline;
+}
+
+.nav-hover:hover{
+    color: var(--clr-red);
+    opacity: 85%;
+    text-decoration: underline;
+}
+
+.logo-burger{
+    display: flex;
+    align-items: center;
+}
+
+.purple-bar{
+    background-color: var(--clr-purple);
+    color: var(--clr-tan);
+    text-align: center;
+    padding: 10px;
+}
+
+.hero-img{
+    height: 500px;
+}

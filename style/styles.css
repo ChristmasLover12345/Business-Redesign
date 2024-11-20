@@ -117,7 +117,7 @@ body{
     padding: 0px 10px;
 }
 
-.offcanvas-body, .offcanvas-header, .navbar-full{
+.offcanvas-body, .offcanvas-header, .navbar-full, .hero-box{
     background-color: var(--clr-yellow);
 }
 
@@ -137,6 +137,15 @@ body{
     align-items: center;
 }
 
+/* Hero Image */
+
+.orange-bar{
+    background-color: var(--clr-orange);
+    color: var(--clr-tan);
+    text-align: center;
+    padding: 10px;
+}
+
 .purple-bar{
     background-color: var(--clr-purple);
     color: var(--clr-tan);
@@ -145,5 +154,10 @@ body{
 }
 
 .hero-img{
-    height: 500px;
+    object-fit: cover;
+    height:auto;
+}
+
+.hero-box{
+    text-align: center;
 }

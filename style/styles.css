@@ -56,7 +56,9 @@
     grid-template-columns: repeat(2, 1fr);
 }
 
-/* Menu Section - End */body{
+/* Menu Section - End */
+
+body{
     background-color: var(--clr-yellow);
     background-image: url(/assets/Background1.png);
     background-repeat: repeat;

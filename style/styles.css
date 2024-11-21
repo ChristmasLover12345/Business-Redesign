@@ -167,6 +167,13 @@
     margin: 0 2rem 0 2rem;
 }
 
+#sub-header {
+    font-size: 40px;
+    font-weight: 400;
+    display: flex;
+    justify-content: flex-start;
+}
+
 /* Menu Section - End */
 
 body{

@@ -73,6 +73,13 @@ body{
     padding: 10px;
 }
 
+.purple-bar-small{
+    background-color: var(--clr-purple);
+    color: var(--clr-tan);
+    text-align: center;
+    padding-top: 2px;
+}
+
 .hero-img{
     object-fit: cover;
     height:auto;
@@ -80,4 +87,27 @@ body{
 
 .hero-box{
     text-align: center;
+}
+
+.footer-grid{
+    background-color: var(--clr-yellow);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.footer-btn{
+    display: flex;
+    justify-content: center;
+    padding: 40px 0px;
+}
+button{
+    border-radius: 10px;
+    border: none;
+    width: 425px;
+    height: 132px;
+    font-size: 30px;
+    background-color: var(--clr-orange);
+    color: var(--clr-tan);
+}
+button > p{
+    font-size: 20px;
 }

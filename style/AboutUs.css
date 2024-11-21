@@ -15,8 +15,8 @@
 .juansBody
 {
     background-image:url(../assets/Background1.png) ;
+    background-size: 100%;
     background-repeat: repeat-y;
-    background-size: cover;
     font-family: Montagu-Slab;
 }
 

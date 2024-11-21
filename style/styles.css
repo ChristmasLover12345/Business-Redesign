@@ -17,8 +17,9 @@
 
 .menu-page {
     background-image: url(../assets/Background2.png);
-    background-size: cover;
-    background-repeat: repeat;
+    background-size: 100%;
+    background-repeat: repeat-y;
+
 }
 
 
@@ -148,6 +149,21 @@
 
 .kids-meals {
     background-color: #A5C972;
+    margin: 0 2rem 0 2rem;
+}
+
+.fajitas-soups {
+    background-color: #6BB38E;
+    margin: 0 2rem 0 2rem;
+}
+
+.combos {
+    background-color: #A5C972;
+    margin: 0 2rem 0 2rem;
+}
+
+.extras-desserts {
+    background-color: #E05D2F;
     margin: 0 2rem 0 2rem;
 }
 

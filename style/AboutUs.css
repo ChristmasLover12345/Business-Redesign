@@ -4,15 +4,20 @@
 }
 
 
-body
+
+.aboutUsBody
 {
     margin-left: 13rem;
     margin-right: 13.5rem;
+    text-align: center;
+}
+
+.juansBody
+{
     background-image:url(../assets/Background1.png) ;
     background-repeat: repeat-y;
     background-size: cover;
     font-family: Montagu-Slab;
-    text-align: center;
 }
 
 .textColor
@@ -38,10 +43,12 @@ body
 .header
 {
     font-size: 3.75rem;
+    font-weight: bold;
 }
 .lilHeader
 {
     font-size: 2.5rem;
+    font-weight: bold;
 }
 
 .mainText
@@ -52,8 +59,45 @@ body
     margin-bottom: 2rem;
 }
 
+.orderDesktop1
+{
+    order: 1;
+}
+.orderDesktop2
+{
+    order: 2;
+}
+
+.imgFit
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.underline
+{
+   text-decoration: underline;
+}
+
+
+
 /* PHONE DISPLAY */
 @media (min-width: 0px) and (max-width: 430px)
 {
+    .aboutUsBody
+{
+ 
+    text-align: center;
+}
+
+.orderPhone1
+{
+    order: 1;
+}
+.orderPhone2
+{
+    order: 2;
+}
 
 }

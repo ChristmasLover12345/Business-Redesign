@@ -82,11 +82,60 @@
 
 /* ABOUT US END */
 
+/* LOCATION START */
+
 .locTime
 {
     font-size: 3.125rem;
 }
 
+
+.purpleText
+{
+    color: #541E35;
+}
+
+.matchCard
+{
+    height: 546px;
+}
+
+.bgGreen
+{
+    background-color: #A5C972;
+}
+
+.bajaBlast
+{
+    background-color: #6BB38E;
+}
+
+.mapContainer
+{
+    position: relative;
+
+    padding-bottom: 46.25%; /* For a 16:9 aspect ratio (9/16 = 0.5625) */
+
+    height: 0;
+
+    overflow: hidden;
+}
+
+.mapContainer iframe {
+
+    position: absolute;
+
+    top: 0;
+
+    left: 0;
+
+    width: 100%;
+
+    height: 100%;
+
+}
+
+/* LOCATION END */
 
 /* PHONE DISPLAY */
 @media (min-width: 0px) and (max-width: 430px)

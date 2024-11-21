@@ -43,10 +43,12 @@
 .header
 {
     font-size: 3.75rem;
+    font-weight: bold;
 }
 .lilHeader
 {
     font-size: 2.5rem;
+    font-weight: bold;
 }
 
 .mainText
@@ -73,6 +75,10 @@
     object-fit: cover;
 }
 
+.underline
+{
+   text-decoration: underline;
+}
 
 
 

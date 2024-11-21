@@ -122,9 +122,8 @@ h1{
 }
 
 .info-grid > div > img{
-    height: auto;
-    max-height: 500px;
-    max-width: 500px;
+    height: 500px;
+    width: 500px;
     border-radius: 100%;
     margin: 20px;
     color: var(--clr-tan);
@@ -199,12 +198,28 @@ button > div > p{
     background-color: #e05e2fac;
 }
 
-@media (max-width: 1400px) and (min-width: 1200px){
+@media (max-width: 1710px){
+    h1{
+        font-size: 30px;
+    }
+    .info-grid > div > img{
+        height: 300px;
+        width: 300px;
+    }
     .footer-grid{
         grid-template-columns: repeat(2, 1fr);
     }
 }
+@media (max-width: 1400px) and (min-width: 1200px){
+}
 @media (max-width: 1200px) and (min-width: 769px){
+    h1{
+        font-size: 40px;
+    }
+    .info-grid > div > img{
+        height: 500px;
+        width: 500px;
+    }
     .info-grid{
         grid-template-columns: 1fr;
     }
@@ -225,5 +240,18 @@ button > div > p{
     }
     .footer-grid{
         grid-template-columns: 1fr;
+    }
+    .hero-text{
+        padding: 10px;
+    }
+    .home-box{
+        padding: 0px;
+    }
+}
+@media (max-width: 768px) {
+    .hero-img{
+        object-fit: cover;
+        height:auto;
+        width: 100%;
     }
 }

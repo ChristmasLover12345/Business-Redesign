@@ -78,6 +78,11 @@ body{
     color: var(--clr-tan);
     text-align: center;
     padding-top: 2px;
+    padding-bottom: 1px;
+}
+
+.purple-bar-small > h5{
+    margin-top: 5px;
 }
 
 .hero-img{
@@ -87,6 +92,50 @@ body{
 
 .hero-box{
     text-align: center;
+}
+
+.home-box{
+    background-color: var(--clr-tan);
+    padding: 0px 50px;
+}
+
+.info-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 1fr;
+    gap: 25px;
+}
+
+.info-grid > div > img{
+    height: 500px;
+    width: 500px;
+    border-radius: 100%;
+    margin: 20px;
+    color: var(--clr-tan);
+}
+
+.card-box{
+    margin: 20px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.27);
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+.home-card1{
+    background-color: var(--clr-orange);
+    text-align: center;
+    color: var(--clr-tan);
+}
+.home-card2{
+    background-color: var(--clr-green);
+    text-align: center;
+    color: var(--clr-tan);
+}
+.home-card3{
+    background-color: var(--clr-teal);
+    text-align: center;
+    color: var(--clr-tan);
 }
 
 .footer-grid{

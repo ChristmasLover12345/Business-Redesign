@@ -16,8 +16,8 @@
 body{
     background-color: var(--clr-yellow);
     background-image: url(/assets/Background1.png);
-    background-repeat: repeat;
-    background-size: cover;
+    background-size: 100% 100%;
+    background-repeat: repeat-x;
 }
 
 /* Navbar Stuff */
@@ -149,6 +149,9 @@ body{
     padding: 40px 0px;
 }
 button{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
     border-radius: 10px;
     border: none;
     width: 425px;
@@ -157,6 +160,16 @@ button{
     background-color: var(--clr-orange);
     color: var(--clr-tan);
 }
-button > p{
+button > div > p{
     font-size: 20px;
+}
+
+.svg-icon{
+    display: flex;
+    justify-content: center;
+    margin-left: 25px;
+}
+
+button:hover{
+    background-color: #e05e2fac;
 }

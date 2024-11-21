@@ -51,6 +51,14 @@
     height: 6rem;
 }
 
+#menu-bar {
+    color: #541E35;
+}
+
+#bottom-p {
+    padding-bottom: 1rem;
+}
+
 .menu-grid {
     margin: 0 13rem 0 13rem;
     display: grid;
@@ -125,6 +133,21 @@
 
 .appetizers {
     background-color: #E05D2F;
+    margin: 0 2rem 0 2rem;
+}
+
+.shrimp-steak {
+    background-color: #E05D2F;
+    margin: 0 2rem 0 2rem;
+}
+
+.breakfast-lunch {
+    background-color: #6BB38E;
+    margin: 0 2rem 0 2rem;
+}
+
+.kids-meals {
+    background-color: #A5C972;
     margin: 0 2rem 0 2rem;
 }
 

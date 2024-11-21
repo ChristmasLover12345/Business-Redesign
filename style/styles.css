@@ -27,7 +27,7 @@ body{
 
 h1{
     font-family: Montagu-Slab-Bold;
-    font-size: 45px;
+    font-size: 40px;
 }
 
 /* Navbar Stuff */
@@ -122,8 +122,9 @@ h1{
 }
 
 .info-grid > div > img{
-    height: 500px;
-    width: 500px;
+    height: auto;
+    max-height: 500px;
+    max-width: 500px;
     border-radius: 100%;
     margin: 20px;
     color: var(--clr-tan);
@@ -145,18 +146,21 @@ h1{
     text-align: center;
     color: var(--clr-tan);
     padding: 20px;
+    margin-bottom: 20px;
 }
 .home-card2{
     background-color: var(--clr-green);
     text-align: center;
     color: var(--clr-tan);
     padding: 20px;
+    margin-bottom: 20px;
 }
 .home-card3{
     background-color: var(--clr-teal);
     text-align: center;
     color: var(--clr-tan);
     padding: 20px;
+    margin-bottom: 20px;
 }
 
 .footer-grid{
@@ -169,7 +173,7 @@ h1{
     justify-content: center;
     padding: 40px 0px;
 }
-button{
+.footer-btn > button{
     display: grid;
     grid-template-columns: auto 1fr;
     align-items: center;
@@ -191,6 +195,35 @@ button > div > p{
     margin-left: 25px;
 }
 
-button:hover{
+.footer-btn > button:hover{
     background-color: #e05e2fac;
+}
+
+@media (max-width: 1400px) and (min-width: 1200px){
+    .footer-grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 1200px) and (min-width: 769px){
+    .info-grid{
+        grid-template-columns: 1fr;
+    }
+    .footer-grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 1200px) and (min-width: 881px){
+
+    .footer-grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 880px){
+    .info-grid{
+        grid-template-columns: 1fr;
+    }
+    .footer-grid{
+        grid-template-columns: 1fr;
+    }
 }

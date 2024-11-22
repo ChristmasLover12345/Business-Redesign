@@ -99,7 +99,7 @@ h1{
 
 .hero-img{
     object-fit: cover;
-    height:600px;
+    height:100%;
     width: 100%;
 }
 
@@ -107,7 +107,7 @@ h1{
     text-align: center;
 }
 .hero-text{
-    padding-top: 15%;
+    padding: 15px;
 }
 
 .home-box{
@@ -120,6 +120,9 @@ h1{
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(auto-fit, 1fr);
     gap: 25px;
+}
+.hidden{
+    display: none;
 }
 .home-card-grid-item{
     grid-auto-rows: 1fr;
@@ -252,9 +255,6 @@ button > div > p{
     }
     .footer-grid{
         grid-template-columns: 1fr;
-    }
-    .hero-text{
-        padding: 10px;
     }
     .home-box{
         padding: 0px;

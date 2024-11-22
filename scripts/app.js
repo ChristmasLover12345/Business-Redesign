@@ -5,9 +5,9 @@ let card3 = document.getElementById('card3');
 
 
 addEventListener("scroll", (event) => {
-    card1.className = 'slideUp' + ' card';
-    card2.className = 'slideUp' + ' card';
-    card3.className = 'slideUp' + ' card';
+    card1.className = 'card' + ' fadeIn';
+    card2.className = 'card' + ' fadeIn';
+    card3.className = 'card' + ' fadeIn';
 });
 
 onscroll = (event) => {};

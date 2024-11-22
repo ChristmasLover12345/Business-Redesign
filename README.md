@@ -1,7 +1,7 @@
 # Business-Redesign
 
 ### Juan Heredia / Bowen Henry / Gianpaolo Reinares
-### 11/**/2024
+### 11/22/2024
 # "Project - Business Redesign"
 ### Description: 
 You will be taking a local business and do a redesign to their existing site. This redesign should improve their site and make it more up to date. This assignment will require you to have the following:

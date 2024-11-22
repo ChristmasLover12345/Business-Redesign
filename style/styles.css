@@ -371,7 +371,6 @@ h1 {
     font-size: 40px;
 }
 
-
 /* Navbar Stuff */
 
 .navbar-brand {
@@ -453,8 +452,6 @@ h1 {
 
 .hero-text {
     padding-top: 10%;
-.hero-text{
-    padding: 15px;
 }
 
 .home-box {
@@ -465,35 +462,20 @@ h1 {
 .info-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(auto-fit, 1fr);
+    grid-template-rows: 1fr;
     gap: 25px;
 }
 
 .info-grid>div>img {
     height: 500px;
     width: 500px;
-.hidden{
-    display: none;
-}
-.home-card-grid-item{
-    grid-auto-rows: 1fr;
-}
-.card{
-    background-color: rgba(255, 255, 255, 0);
-    border: none;
-}
-
-.card-img{
-    width: 100%;
     border-radius: 100%;
     margin: 20px;
-    padding: 20px;
     color: var(--clr-tan);
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-
 
 .card-box {
     margin: 5px;
@@ -501,7 +483,6 @@ h1 {
     background-color: rgba(0, 0, 0, 0.27);
     border-radius: 10px;
     font-size: 25px;
-    height: auto;
 }
 
 .home-card1 {
@@ -510,7 +491,6 @@ h1 {
     color: var(--clr-tan);
     padding: 20px;
     margin-bottom: 20px;
-    height: 100%;
 }
 
 .home-card2 {
@@ -519,7 +499,6 @@ h1 {
     color: var(--clr-tan);
     padding: 20px;
     margin-bottom: 20px;
-    height: 100%;
 }
 
 .home-card3 {
@@ -528,7 +507,6 @@ h1 {
     color: var(--clr-tan);
     padding: 20px;
     margin-bottom: 20px;
-    height: 100%;
 }
 
 .footer-grid {
@@ -581,7 +559,6 @@ button>div>p {
     }
 
     .footer-grid {
-    .footer-grid{
         grid-template-columns: repeat(2, 1fr);
     }
 }
@@ -599,7 +576,6 @@ button>div>p {
     }
 
     .info-grid {
-    .info-grid{
         grid-template-columns: 1fr;
     }
 

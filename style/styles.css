@@ -303,6 +303,18 @@
         font-size: 20px;
         padding: 2rem;
     }
+
+    .btn {
+        font-size: 50px;
+        padding: 2rem 5rem 2rem 5rem;
+        background-color: #541E35;
+        color: #F7E9AD;
+    }
+
+    .card {
+        background-color: #F7E9AD;
+        border: 0;
+    }
 }
 
 

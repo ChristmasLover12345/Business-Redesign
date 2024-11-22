@@ -27,5 +27,5 @@ List of items to turn in:
 ### _Figma Link:_
 [Figma Link](https://www.figma.com/design/bhN6mUkrpUWOkEVJRPG7Si/Business-Redesign?node-id=0-1&t=aqNlje5SIAkwj5Bd-1)
 
-This has been Peer Reviewed By: 
-> Comments: 
+This has been Peer Reviewed By: Andrie Amor
+> Comments: This is a beautiful redesign. I looked up the original website and can say that you guys did an amazing job at redesigning it. On god this is goated it even has really good effects like the fade in. I honestly have no critiques, immaculate job guys.

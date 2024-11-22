@@ -101,6 +101,15 @@
 }
 
 
+.cardTittle
+{
+    height: 150px;
+}
+
+.cardContent
+{
+    height: 500px;
+}
 
 
 .bgGreen
@@ -117,7 +126,7 @@
 {
     position: relative;
 
-    padding-bottom: 46.25%; /* For a 16:9 aspect ratio (9/16 = 0.5625) */
+    padding-bottom: 46.25%; 
 
     height: 0;
 
@@ -139,6 +148,8 @@
     height: 100%;
 
 }
+
+
 
 /* LOCATION END */
 

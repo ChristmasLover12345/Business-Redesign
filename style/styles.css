@@ -126,7 +126,7 @@ h3{
     gap: 25px;
 }
 .hidden{
-    display: none;
+    visibility: hidden
 }
 .home-card-grid-item{
     grid-auto-rows: 1fr;

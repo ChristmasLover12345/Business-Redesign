@@ -97,8 +97,11 @@
 
 .matchCard
 {
-    height: 546px;
+    height: 79.2%;
 }
+
+
+
 
 .bgGreen
 {
@@ -120,6 +123,8 @@
 
     overflow: hidden;
 }
+
+
 
 .mapContainer iframe {
 
@@ -179,6 +184,16 @@
    text-decoration: underline;
 }
 
+
+.locTime
+{
+    font-size: 1.25rem;
+}
+
+.matchCard
+{
+  height: 200px;
+}
 
 
 }
@@ -243,6 +258,16 @@
 .orderPhone2
 {
     order: 2;
+}
+
+.locTime
+{
+    font-size: 1.25rem;
+}
+
+.matchCard
+{
+  height: 200px;
 }
 
 }

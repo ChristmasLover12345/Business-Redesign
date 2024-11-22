@@ -611,6 +611,10 @@ h1 {
     align-items: center;
 }
 
+.fw-bold{
+    font-family: Montagu-Slab-Bold;
+}
+
 @media (max-width: 1710px) {
     h1 {
         font-size: 30px;

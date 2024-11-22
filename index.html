@@ -4,12 +4,13 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Arroyo's - Home</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="style/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="style/styles.css">
+        <link rel="stylesheet" href="./style/wickedcss.min.css">
 </head>
 
 <body>
@@ -132,14 +133,26 @@
         </div>
     </div>
     <div class="purple-bar">
-        <h2>Take Home Fresh Arroyo's Tortillas!</h2>
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h2>Family Owned and Operated since 1946!</h2>
+          </div>
+          <div class="carousel-item">
+            <h2>Take Home Fresh Arroyo's Tortillas!</h2>
+          </div>
+          <div class="carousel-item">
+            <h2>Get Ready To Enjoy Arroyo's Famous Fine Mexican Dinners!</h2>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- Box -->
     <div class="home-box">
     <div class="info-grid">
-      <div>
-        <img src="./assets/logo.png" alt="Arroyo's Cafe & Cantina At Quail Lakes">
+      <div id="card1" class="hidden">
+        <img class="card-img" src="./assets/homeimg1.jpg" alt="Arroyo's Cafe & Cantina At Quail Lakes">
         <div class="purple-bar">
           <h1><u>Arroyo's Cafe & Cantina at Quail Lakes</u></h1>
         </div>
@@ -156,8 +169,8 @@
           </div>
         </div>
       </div>
-      <div>
-        <img src="./assets/logo.png" alt="Fine Mexican Dining In Stockton, CA">
+      <div id="card2" class="hidden">
+        <img class="card-img" src="./assets/homeimg2.jpg" alt="Fine Mexican Dining In Stockton, CA">
         <div class="purple-bar">
           <h1><u>Fine Mexican Dining in Stockton, CA</u></h1>
         </div>
@@ -171,8 +184,8 @@
           </div>
         </div>
       </div>
-      <div>
-        <img src="./assets/logo.png" alt="Arroyo's Cantina - We Have An Awesome Bar!">
+      <div id="card3" class="hidden">
+        <img class="card-img" src="./assets/homeimg3.jpg" alt="Arroyo's Cantina - We Have An Awesome Bar!">
         <div class="purple-bar">
           <h1><u>Arroyo's Cantina
             <br>

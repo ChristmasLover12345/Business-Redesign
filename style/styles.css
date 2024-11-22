@@ -665,6 +665,9 @@ h1 {
     .home-box {
         padding: 0px;
     }
+    .footer-btn{
+        padding: 10px 0px;
+    }
 }
 
 @media (max-width: 768px) {

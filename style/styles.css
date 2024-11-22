@@ -313,13 +313,25 @@
         padding: 2rem 0 2rem 0;
         margin: 0;
         width: 100%;
-        background-color: #541E35;
-        color: #F7E9AD;
+        background-color: #541E35 !important;
+        color: #F7E9AD !important;
+    }
+
+    .btn:focus,
+    .btn:active,
+    .btn:hover {
+        background-color: #541E35 !important;
+        color: #F7E9AD !important;
+        box-shadow: none !important;
     }
 
     .card {
         background-color: #F7E9AD;
         border: 0;
+    }
+
+    .mobile-padding {
+        padding-top: 0 !important;
     }
 
 }

@@ -260,6 +260,10 @@
     #sub-header {
         font-size: 25px;
     }
+
+    .hidden {
+        display: none;
+    }
 }
 
 @media (max-width: 430px) {
@@ -306,7 +310,9 @@
 
     .btn {
         font-size: 50px;
-        padding: 2rem 5rem 2rem 5rem;
+        padding: 2rem 0 2rem 0;
+        margin: 0;
+        width: 100%;
         background-color: #541E35;
         color: #F7E9AD;
     }
@@ -315,6 +321,7 @@
         background-color: #F7E9AD;
         border: 0;
     }
+
 }
 
 
